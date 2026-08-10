@@ -5,6 +5,6 @@ nltk
 openai
 psycopg2
 requests
-dotenv
-requests
-
+python-dotenv
+fastapi
+uvicorn
