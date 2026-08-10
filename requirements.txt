@@ -1,0 +1,7 @@
+numpy
+faiss_cpu
+sentence-transformers
+nltk
+openai
+psycopg2
+requests
