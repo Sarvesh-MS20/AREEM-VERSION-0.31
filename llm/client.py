@@ -11,6 +11,10 @@ from config.settings import api_key
 #     config = json.load(f)
 #
 # api_key = config['key']
+# with open('api_key.json','r')as f:
+#     config = json.load(f)
+#
+# api_key = config['key']
 
 # ------------------------------------------------------
 #                   MODEL INITIALIZATION

@@ -13,6 +13,10 @@ from config.settings import weather_api_key
 # weather_api = api["key"]
 
 weather_api = weather_api_key
+# for weather
+with open('weather_api.json', 'r') as f:
+    api = json.load(f)
+weather_api = api["key"]
 
 def weather(query, memory=None):
     match = re.search(r"in (\w+)", query.lower())
